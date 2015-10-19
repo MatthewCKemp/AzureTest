@@ -11,10 +11,10 @@
                         print"You may buy specs ";
                     }
                     else if ($myage >= 18){
-                        print"You may buy mugs ";
+                        print"You may buy specs and mugs ";
                     }
                     else if ($myage >= 21){
-                        print"You may buy sausage rolls ";
+                        print"You may buy specs, mugs and sausage rolls ";
                     }
                     else print "You may buy NOTHING. "
                 ?>
