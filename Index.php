@@ -7,7 +7,7 @@
                 <?php
                     echo "Hello World";
                     echo 5 * 7;
-                    $myname = "Slim Shady ";
+                    $myname = " Slim Shady ";
                     $myage = 420;
                     echo "My name is " . $myname . "and I am " . $myage;
                 ?>
