@@ -5,18 +5,25 @@
         <body>
             <p>
                 <?php
-                    $myage = 20;
+                   $wantedgood = "specs";
 
-                    if ($myage >= 16){
-                        print"You may buy specs ";
+                    switch ($wantedgood) {
+                        case 1;
+                            if($wantedgood == "specs"){
+                                print "You must be 16";
+                            }
+                        break;
+                        case 2;
+                            if($wantedgood == "mugs"){
+                                print "You must be 18";
+                            }
+                            break;
+                        case 3;
+                            if($wantedgood == "sausage rolls"){
+                                print "You must be 21";
+                            }
+                            break;
                     }
-                    else if ($myage >= 18){
-                        print"You may buy specs and mugs ";
-                    }
-                    else if ($myage >= 21){
-                        print"You may buy specs, mugs and sausage rolls ";
-                    }
-                    else print "You may buy NOTHING."
                 ?>
             </p>
         </body>
