@@ -12,7 +12,7 @@
         $username = "Shia";
         $password = "ActualCannibal";
 
-        setcookie('access_level','standarduser');
+        setcookie('accessLevel','standarduser');
     ?>
 </p>
 </body>
