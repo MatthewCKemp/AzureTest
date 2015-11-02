@@ -5,6 +5,10 @@
 <body>
 <p>
     <?php
+
+        $_SESSION['Value'] = 'ActualCannibalShiaLaBeauf';
+        print $_SESSION['Value'];
+
         function displayAccessLevelInformation($accessLevel) {
             if ($accessLevel == "standarduser"){
                 echo "<p>You are currently logged in as a standard user<p/>";
